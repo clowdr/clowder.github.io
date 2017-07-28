@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Landed by HTML5 UP</title>
+		<title>Clowdr</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -23,16 +23,16 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#four" class="scrolly">Resources</a></li>
 							<li>
-								<a href="#">Resources</a>
+								<a href="#">Quick Start</a>
 								<ul>
-									<li><a href="left-sidebar.html">Usage</a></li>
-									<li><a href="right-sidebar.html">Hackpad</a></li>
-									<li><a href="no-sidebar.html">Slack</a></li>
+									<li><a href="https://github.com/gkiar/clowdr">Usage</a></li>
+									<li><a href="https://paper.dropbox.com/doc/Clowdr-extensible-pipeline-deployment-eQgh3PTF2ekCCV5YzCCkj">Live Notes</a></li>
+									<li><a href="https://github.com/gkiar/clowdr">Examples</a></li>
 								</ul>
 							</li>
-							<li><a href="#" class="button special">Fork me on Github!</a></li>
+							<li><a href="https://github.com/gkiar/clowdr" class="button special">Fork me on Github!</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -41,9 +41,8 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>The future has landed</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
+							<h2>Clowdr</h2>
+              <p>Accessibly deploy processing<br/>pipelines at scale</p>
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
@@ -56,25 +55,20 @@
 					<div class="content">
 						<div class="container">
 							<div class="row">
-								<div class="4u 12u$(medium)">
+								<div class="6u 12u$(medium)">
 									<header>
-										<h2>Odio faucibus ipsum integer consequat</h2>
-										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+										<h2>Universal* one-click deployment</h2>
 									</header>
+										<p>Run any pipeline<sup>1</sup>,
+                       with any data<sup>2</sup>,
+                       on any compute resource<sup>3</sup>,
+                       from anywhere<sup>4</sup>.</p>
 								</div>
-								<div class="4u 12u$(medium)">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
-								</div>
-								<div class="4u$ 12u$(medium)">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
+								<div class="6u 12u$(medium)" style="vertical-align:middle;">
+									<p><sup>1</sup>if it's described in Boutiques and wrapped in Docker<br/>
+                  <sup>2</sup>if the data is publicly available<br/>
+									<sup>3</sup>if you have credentials and it can run Docker<br/>
+                  <sup>4</sup>if you have internet</p>
 								</div>
 							</div>
 						</div>
@@ -87,29 +81,12 @@
 					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>Interdum amet non magna accumsan</h2>
-							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+							<h2>Built for Science</h2>
+							<p>Lowering the barrier for repeatable, reproducible, and generalizable computation.</p>
 						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
+						<p>Riding the coattails of open intitiatives in Neuroscience, Clowdr follows in the footsteps of the <a href="http://scienceinthe.cloud">Science in the Cloud</a> framework and enables processing of <a href="http://bids.neuroimaging.io/">BIDS</a> datasets using tools described through the <a href="http://boutiques.github.io">Boutiques</a> schema.</p>
+            
+            <p>While Clowder will be extended to operate on a broader range of platforms, it has been prototyped for pipeline deployment of <a href="https://www.docker.com/">Docker</a> containers on the <a href="https://aws.amazon.com/">Amazon Web Services</a> cloud.</p>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
@@ -118,48 +95,28 @@
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>Accumsan sed tempus adipiscing blandit</h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+							<h2>Further Reading</h2>
+							<p>Check out some of the resources to help you get more acquainted with Clowdr.</p>
 						</header>
 						<div class="box alt">
 							<div class="row uniform">
 								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-area-chart"></span>
-									<h3>Ipsum sed commodo</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<span class="icon alt major fa-file"></span>
+									<h3>Origin of Clowder</h3>
+									<p>Check out the manuscript that started this whole project - <a href="https://doi.org/10.1093/gigascience/gix013">Science in the Cloud</a>!</p>
 								</section>
 								<section class="4u 6u$(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<h3>Join the Brainhack Community</h3>
+									<p>As this is a collaborative effort, join the discussion and chime in on <a href="https://brainhack.slack.com/messages/clowdr/">Slack</a>!</p>
 								</section>
 								<section class="4u$ 6u(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-flask"></span>
-									<h3>Cubilia cep lobortis</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-paper-plane"></span>
-									<h3>Non semper interdum</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-file"></span>
-									<h3>Odio laoreet accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u$ 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<h3>Examples</h3>
+									<p>Coming soon....</p>
 								</section>
 							</div>
 						</div>
-						<footer class="major">
-							<ul class="actions">
-								<li><a href="#" class="button">Magna sed feugiat</a></li>
-							</ul>
-						</footer>
 					</div>
 				</section>
 
@@ -167,30 +124,21 @@
 				<section id="five" class="wrapper style2 special fade">
 					<div class="container">
 						<header>
-							<h2>Magna faucibus lorem diam</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+							<h2>Join the <a title="a group of cats" href="https://github.com/gkiar/clowdr/graphs/contributors">Clowder</a></h2>
+							<p>Fork on Github, open an issue, make a PR, or send a line - regardless of how you do it, get involved!</p>
 						</header>
-						<form method="post" action="#" class="container 50%">
-							<div class="row uniform 50%">
-								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
-							</div>
-						</form>
 					</div>
 				</section>
 
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://twitter.com/g_kiar" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/clowdr/" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:gkiar07@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Clowdr. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
